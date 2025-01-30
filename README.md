@@ -29,4 +29,3 @@ Bonnes Pratiques:
  - Configurez un pipeline d'intégration continue/déploiement continu (CI/CD) pour automatiser le processus de test et de déploiement à chaque mise à jour du code.
 
 La liste des étapes n'est pas exhaustive, vous pouvez ajouter, modifier ou supprimer la liste. 
-
