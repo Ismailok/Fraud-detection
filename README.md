@@ -1,7 +1,7 @@
 # End-to-end-ML-project Template
 
 ## Étape 1 : Description du Contexte et du Problème
-Contexte: Fournissez une vue d'ensemble du secteur d'application et la motivation derrière le projet.
+Contexte: Fournissez une vue d'ensemble du secteur d'application et la motivation derrière le projet.'\n'
 Problème à Résoudre: Décrivez clairement le problème que vous souhaitez résoudre et son importance. 
 Données Disponibles: Discutez des jeux de données que vous disposez, incluant leurs formats, éléments, et caractéristiques importantes. 
 
