@@ -1,6 +1,6 @@
 # Detection de fraude
 
-## Étape 1 : Description du Contexte et du Problème
+## Description du Contexte et du Problème
 
 **Contexte**:  
 BNP Paribas Personal Finance, leader du crédit à la consommation en France et en Europe, propose une large gamme de produits financiers à travers de nombreux canaux et partenaires. Face à la montée des risques de fraude, l'entreprise s'appuie sur des modèles analytiques avancés pour sécuriser ses processus de décision et garantir un équilibre entre profitabilité, expérience client et maîtrise du risque. La détection de la fraude est un enjeu stratégique, car les fraudeurs adaptent constamment leurs méthodes pour contourner les systèmes existants, rendant leur identification complexe, d'autant plus que la fraude reste un phénomène rare dans la population.
