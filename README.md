@@ -1,4 +1,4 @@
-# End-to-end-ML-project Template
+# Detection de fraude
 
 ## Étape 1 : Description du Contexte et du Problème
 
