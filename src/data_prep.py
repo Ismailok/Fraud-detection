@@ -99,8 +99,8 @@ if __name__ == "__main__":
     import os
 
     # Chemins des fichiers (à adapter selon ton arborescence)
-    TRAIN_FILE = '../data/X_train.csv'
-    TARGET_FILE = '../data/y_train.csv'
+    TRAIN_FILE = 'data/X_train.csv'
+    TARGET_FILE = 'data/y_train.csv'
 
     if os.path.exists(TRAIN_FILE) and os.path.exists(TARGET_FILE):
         print("Chargement des données...")

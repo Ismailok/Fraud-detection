@@ -1,9 +1,15 @@
 # End-to-end-ML-project Template
 
 ## Étape 1 : Description du Contexte et du Problème
-Contexte: Fournissez une vue d'ensemble du secteur d'application et la motivation derrière le projet.'\n'
-Problème à Résoudre: Décrivez clairement le problème que vous souhaitez résoudre et son importance. 
-Données Disponibles: Discutez des jeux de données que vous disposez, incluant leurs formats, éléments, et caractéristiques importantes. 
+
+**Contexte**:  
+BNP Paribas Personal Finance, leader du crédit à la consommation en France et en Europe, propose une large gamme de produits financiers à travers de nombreux canaux et partenaires. Face à la montée des risques de fraude, l'entreprise s'appuie sur des modèles analytiques avancés pour sécuriser ses processus de décision et garantir un équilibre entre profitabilité, expérience client et maîtrise du risque. La détection de la fraude est un enjeu stratégique, car les fraudeurs adaptent constamment leurs méthodes pour contourner les systèmes existants, rendant leur identification complexe, d'autant plus que la fraude reste un phénomène rare dans la population.
+
+**Problème à Résoudre**:  
+L'objectif de ce challenge est de développer une méthode efficace pour détecter les opérations frauduleuses à partir des données de panier d'achat d'un partenaire de BNP Paribas Personal Finance. Il s'agit de prédire, pour chaque transaction, la probabilité qu'elle soit frauduleuse, afin de pouvoir refuser les dossiers suspects à l'avenir. Ce problème est d'autant plus complexe que la classe frauduleuse est très minoritaire (environ 1,4% des cas), ce qui nécessite des approches adaptées au déséquilibre des classes.
+
+**Données Disponibles**:  
+Le jeu de données fourni contient 115 988 observations et 147 variables, décrivant exclusivement le contenu des paniers financés (jusqu'à 24 items par panier, avec des informations détaillées sur chaque item : catégorie, prix, fabricant, modèle, code produit, nombre de produits, etc.). La variable cible `fraud_flag` indique si la transaction a été identifiée comme frauduleuse (1) ou non (0). Les données sont réparties en un échantillon d'entraînement (80%) et un échantillon de test (20%), avec une distribution similaire de la fraude dans chaque sous-ensemble. La métrique d'évaluation principale est l'aire sous la courbe Précision-Rappel (PR-AUC), adaptée à la détection de la classe minoritaire.
 
 ## Étape 2 : Sélection, Mise en Place, Tracking et Registry du Modèle
 Choix du Modèle: Sélectionnez un modèle approprié en fonction du type de problème (régression, classification, etc.). Justifiez votre choix du modele et les performances attendues.
